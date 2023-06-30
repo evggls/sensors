@@ -11,7 +11,8 @@
 
     // Array of Racks/Server Rooms name and sensors IP adresses
     $sensors = [
-
+        //'chamber name' => 'iP address'
+        //'server room name' => 'xxx.xxx.xxx.xxx' 
     ];
 
     $data = getData($sensors);
