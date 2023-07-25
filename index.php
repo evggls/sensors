@@ -15,7 +15,7 @@
 
     <body class="bg-dark bg-opacity-25">
         <main class="px-2 mx-2 mt-2">
-            <?php if (isset($data)) : ?>
+            <?php if (isset($data) && !empty($data)) : ?>
                 <div class="row justify-content-around">
                     <?php foreach ($data as $item): ?>
                         <?php $style = setStyle(floatval($item['temp']),  $upperLimit, $lowerLimit)?>
